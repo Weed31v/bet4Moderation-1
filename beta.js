@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client()
 const Settings = require("./beta/Settings/Config.json");
 const betaconf = require("./beta/Settings/Settings.json");
-const fs = require("fs");
+const fs = require("fs")
 
 require('./beta/Util/betaLoader')(client);
 
